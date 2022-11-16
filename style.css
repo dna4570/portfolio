@@ -173,10 +173,16 @@ nav .inner ul li a:hover {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  height: 550px;
+  height: auto;
   background-image: url(./img/images/img00.jpg);
 }
-
+.jumbotron{
+  height:auto;
+}
+.img-fluid{
+  max-width: 100%;
+  height:auto;
+}
 #header .logo {
   display: block;
 }
