@@ -3,7 +3,6 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
-  <title>ポートフォリオ</title>
   <meta name="discription" content="sample text">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
@@ -12,23 +11,77 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous"/>
+  integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+  crossorigin="anonymous"/>
   <!-- drawer.css -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/css/drawer.min.css">
-<!-- jquery & iScroll -->
+  <!-- jquery & iScroll -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.1.3/iscroll.min.js"></script>
-<!-- drawer.js -->
+  <!-- drawer.js -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.1/js/drawer.min.js"></script>
-<!-- dropdown.js -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="https://kit.fontawesome.com/9b05599f08.js" crossorigin="anonymous"></script>
+  <!-- dropdown.js -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <link rel="shortcut icon" href="./img/favicon.ico.png" />
+  <title>ポートフォリオ</title>
 </head>
 
 <body>
+  <!-- Hero section -->
+  <div class="hero vh-100 d-flex align-items-center" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 mx-auto text-center">
+          <h1 class="display-4 text-white">ランディングページ</h1>
+          <p class="text-white my-3">
+            LPをレンタルサーバーへデプロイするためのチュートリアルです。
+          </p>
+          <a href="#" class="btn btn-primary me-10">チャンネル登録</a>
+          <a href="#" class="btn btn-outline-light">LINE公式</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-dark py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h2 class="pt-2 text-white">プログラミングチュートリアル</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#features">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+        <button class="btn btn-primary ms-3">登録</button>
+      </div>
+    </div>
+  </nav>
+
   <div id="navArea">
     <nav>
       <div class="inner">
@@ -49,34 +102,10 @@
     <div id="mask"></div>
   </div>
 
-  <main>
-    <h1>Humberger Menu</h1>
-  </main>
-
-  <header id="header" class="img-fluid">
-    <h1 class="logo">
-      <span class="logo-name">Naonori Yokoyama’s</span>
-      <span class="logo-title" style="text-align:center; color:black">Responsive<br>Web-site<br>Portfolio</span>
-      <span class="logo-desc">Web Coding L-sunsui</span>
-    </h1>
-  </header>
   <div class="container">
-
     <div class="jumbotron" style="background:url(./img/images/img00.jpg); background-size:cover;">
-      <h1>ジャンボトロンのカスタマイズ：背景画像を入れる</h1>
-      <p>「ジャンボトロン」とは、元はソニーが開発・製作していた大型映像表示装置の名称。<br>転じて英語圏では、大型表示ディスプレイを指す一般名詞としても使われている。</p>
     </div>
-
   </div>
-
-<!-- <section>
-  <div class="slider">
-      <div><img src="./img/images/slider/img01.jpg"></div>
-      <div><img src="./img/images/slider/img03.jpg"></div>
-      <div><img src="./img/images/slider/img02.jpg"></div>
-      <div><img src="./img/images/slider/img01.jpg"></div>
-  </div>
-</section> -->
 
 <section>
   <nav id="gnav">
@@ -104,149 +133,89 @@
       </div>
       <div class="two-column-desc">
         <p class="text" style="color:black">
-          IDEAひらめきアーティスティック思考性、どんなにこの言葉に憧れただろう。幼少期にちょうど図工の時間の公園の街路樹の風景を水彩画で描いた時から、小学校の図工の時時間があっという間だった創作の時間、大人になったら、そんな時間を生きてゆくと決た。<br><br>音楽に出会い没頭した期間を経て、AppleやJobsのテクノロジーに触れ、WE能性を感じた。いざ頭で出来ると思っても、水彩画のようにはいかない、音楽との出会いていたライムはいつしかコンピューター言語のテキストエディターにソースコードとち込まれていく。ここには厳格なルールしかない。<br><br>テキトーに実行したら、エなるのだ。初めまして横山尚宣です。私はWEBのFRONT-ENDの学習をしております。主にHTML5/CSS3/Javascript/jQuery/Photoshop/illlustrater/Vs-codeなどを使います。
+          アーティスト、この言葉に憧れました。幼少期の図工の時間の公園の街路樹の風景を水彩画で描いた時から、図画工作の時間が好きでした。クリエイティブな集中している創作の時間、コーディングの時間も、集中している。これでゆくと決めました。<br><br>音楽に出会い、没頭する時を経て、AppleやJobsのテクノロジーに触れ感じた直感。いざ頭で出来ると思っても、水彩画のようにはいかない、音楽との出会いで得たライムはいつしかコンピューター言語の世界でエディターにソースコードとち込まれていく。ここでは厳格なルールしかない。<br><br>こんにちわ横山尚宣と申します。私はWEBのFRONT-ENDの学習をしております。主にHTML5/CSS3/jQuery/Photoshop/Wordpress/Bootstrap/Vs-codeなどを使います。
         </p>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section" id="works">
-  <div class="inner">
-    <div class="section-title-block">
-      <h2 class="section-title">WORKS</h2>
-      <div class="section-desc">
-        <p class="text" style="color:black;">
-          これまでの制作実績です。</p>
-      </div>
-    </div>
-    <div class="card-wrapper ">
-      <figure class="card">
-          <img src="img/works/thumb/thumb_work01.jpg" alt="" />
-        </a>
-        <figcaption class="card-caption">
-          <p class="card-caption-title" style="color:black">HTML5</p>
-          <p class="card-caption-info">Design / Coding</p>
-          <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing eliIpsum totam eveniet vitae ea provident nisi eum odio consequuntur velit veniam? </p>
-        </figcaption>
-      </figure>
-      <figure class="card">
-          <img src="img/works/thumb/thumb_work02.jpg" alt="" />
-        </a>
-        <figcaption class="card-caption">
-          <p class="card-caption-title" style="color:black">CSS3</p>
-          <p class="card-caption-info">Design / Coding</p>
-          <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing eliIpsum totam eveniet vitae ea provident nisi eum odio consequuntur velit veniam?</p>
-        </figcaption>
-      </figure>
-      <figure class="card">
-          <img src="img/works/thumb/thumb_work03.jpg" alt="" />
-        </a>
-        <figcaption class="card-caption">
-          <p class="card-caption-title" style="color:black">jQuery</p>
-          <p class="card-caption-info">Design / Coding</p>
-          <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing eliIpsum totam eveniet vitae ea provident nisi eum odio consequuntur velit veniam?</p>
-        </figcaption>
-      </figure>
-      <figure class="card">
-          <img src="img/works/thumb/thumb_work01.jpg" alt="" />
-        </a>
-        <figcaption class="card-caption">
-          <p class="card-caption-title" style="color:black">Photoshop</p>
-          <p class="card-caption-info">Design / Coding</p>
-          <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing eliIpsum totam eveniet vitae ea provident nisi eum odio consequuntur velit veniam?</p>
-        </figcaption>
-      </figure>
-      <figure class="card">
-          <img src="img/works/thumb/thumb_work02.jpg" alt="" />
-        </a>
-        <figcaption class="card-caption">
-          <p class="card-caption-title" style="color:black"  font-family:"sun-selif;">Vs-code</p>
-          <p class="card-caption-info">Design / Coding</p>
-          <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing eliIpsum totam eveniet vitae ea provident nisi eum odio consequuntur velit veniam?</p>
-        </figcaption>
-      </figure>
-      <figure class="card">
-          <img src="img/works/thumb/thumb_work03.jpg" alt="" />
-        </a>
-        <figcaption class="card-caption">
-          <p class="card-caption-title" style="color:black" font-size: 5px;>作品タイトル</p>
-          <p class="card-caption-info">Design / Coding</p>
-          <p style="color:black;">Lorem ipsum dolor sit amet consectetur adipisicing eliIpsum totam eveniet vitae ea provident nisi eum odio consequuntur velit veniam?</p>
-        </figcaption>
-      </figure>
-    </div>
-  </div>
-</section>
 
-<section class="section" id="skill">
-  <div class="inner">
-    <div class="section-title-block">
-      <h2 class="section-title" style="color:black;">SKILL</h2>
-      <p class="section-desc" style="color:black;">
-        直勤はWEBコーダーです！
-      </p>
+<section class="section" id="works">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-mb-8 mx-auto text-center"></div>
+      <div class="section-desc">
+        <h2 class="text" style="color:black;">
+          これまでの制作実績です。</h2>
+      </div>
     </div>
-    <div class="card-wrapper">
-      <div class="card">
-        <div class="skill-icon">
-          <img src="img/skill/icon_skill.png" width="80px" hight="80px" alt="">
-        </div>
-        <div class="skill-desc">
-          <h3 class="skill-desc-title">HTML5/CSS3</h3>
-          <div class="rating">
-            <p class="rate rate4"></p>
+
+    <div class="row g-4">
+      <div class="col-lg-4 col-sm-6">
+        <div class="project">
+          <img src="/img/pro1.jpg" alt="">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">Project Title</h4>
+              <h6 class="text-white">Website Design</h6>
+            </div>
           </div>
-          <p class="text">テキストエディターはVisualstudiocodeです。</p>
         </div>
       </div>
-      <div class="card">
-        <div class="skill-icon">
-          <img src="img/skill/icon_skill.png" width="80px" hight="80px" alt="">
-        </div>
-        <div class="skill-desc">
-          <h3 class="skill-desc-title">JavaScript</h3>
-          <div class="rating">
-            <p class="rate rate3"></p>
+      <div class="col-lg-4 col-sm-6">
+        <div class="project">
+          <img src="/img/pro2.jpg" alt="">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">Project Title</h4>
+              <h6 class="text-white">Website Design</h6>
+            </div>
           </div>
-          <p class="text">javascriptはライブラリーでjQueryを使用いたします。DOMやJSON、ajどの学習もしております。他にNode.js、Vue.js、Typescriptも触っています。
-          </p>
         </div>
       </div>
-      <div class="card">
-        <div class="skill-icon">
-          <img src="img/skill/icon_skill.png" width="80px" hight="80px" alt="">
-        </div>
-        <div class="skill-desc">
-          <h3 class="skill-desc-title">WordPress</h3>
-          <div class="rating">
-            <p class="rate rate4"></p>
+      <div class="col-lg-4 col-sm-6">
+        <div class="project">
+          <img src="/img/pro3.jpg" alt="">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">Project Title</h4>
+              <h6 class="text-white">Website Design</h6>
+            </div>
           </div>
-          <p class="text">HTML5/css3で作成したオリジナル画像にてWordpressを構築いたしますp>
         </div>
       </div>
-      <div class="card">
-        <div class="skill-icon">
-          <img src="img/skill/icon_skill.png" width="80px" hight="80px" alt="">
-        </div>
-        <div class="skill-desc">
-          <h3 class="skill-desc-title">Photoshop</h3>
-          <div class="rating">
-            <p class="rate rate4"></p>
+      <div class="col-lg-4 col-sm-6">
+        <div class="project">
+          <img src="/img/pro4.jpg" alt="">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">Project Title</h4>
+              <h6 class="text-white">Website Design</h6>
+            </div>
           </div>
-          <p class="text">画像のリサイズ、レイヤーの概念、写真の切り抜き、ブラシ等、簡単ーも作成可能。</p>
         </div>
       </div>
-      <div class="card">
-        <div class="skill-icon">
-          <img src="img/skill/icon_skill.png" width="80px" hight="80px" alt="">
-        </div>
-        <div class="skill-desc">
-          <h3 class="skill-desc-title">Adobe XD</h3>
-          <div class="rating">
-            <p class="rate rate3"></p>
+      <div class="col-lg-4 col-sm-6">
+        <div class="project">
+          <img src="/img/pro5.jpg" alt="">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">Project Title</h4>
+              <h6 class="text-white">Website Design</h6>
+            </div>
           </div>
-          <p class="text">今はAdobe XDを学習しております。</p>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-6">
+        <div class="project">
+          <img src="/img/pro6.jpg" alt="">
+          <div class="overlay">
+            <div>
+              <h4 class="text-white">Project Title</h4>
+              <h6 class="text-white">Website Design</h6>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -254,62 +223,122 @@
 </section>
 
 <section>
-  <div class="inner">
-    <div class="sec-05">
-      <h1>About</h1>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A quisquam molestias voluptatibus  quibusdam. Odit provident ratione nobis dolorum non earum molestiae magnam, amet voluptate   eveniet! Assumenda quasi voluptate dolore nulla!</p>
+<div class="row g-4">
+  <div class="col-md-4">
+    <div class="blog-card card-effect">
+      <img src="./img/work01.jpg" alt="">
+      <h5 class="mb-0 mt-4">Designing smart and slick Bootstrap 5 Website</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae, nulla porro ipsam
+        nobis illo!</p>
     </div>
   </div>
-</section>
-
-<section class="section section-secounday p-5" id="contact">
-  <div class="innner p-5">
-    <label for="name" >
-      <h2 class="section-headline font-size:50px; pt-5">資料請求フォーム</h2>
-    </label>
-    <br>
-    <label for="name">
-      <p>まずは無料で資料請求からどうぞ</p>
-    </label>
-    <br>
-    <form action="" method="post">
-      <div class="form-group row">
-
-      <label for="name" class="col-md-3 col-form-label">
-        お名前　<span class="badge badge-warning">必須</span>
-      </label>
-      <div class="col-mb-9">
-        <input type="text" class="form-control" id="name" required>
-      </div>
-
-      </div>
-      <label for="name">
-          Last Name
-      </label>
-    <input type="text" name="last_name" placeholder="性">
-    <br>
-      <label for="name">
-         First Name
-      </label>
-    <input type="text" name="first_name" placeholder="名">
-    <br>
-      <label for="name">
-         E-Mail Address
-      </label>
-    <input type="text" name="first_name" placeholder="メールアドレス">
-    <br>
-      <label for="name">
-         質問などはこちら
-      </label>
-    <textarea name="inquirt" placeholder="質問などはこちら"id="" cols="30" rows="10"></textarea>
-    <br>
-
-  </form>
-
-  <button type="submit" value="SEND">送信</button>
-
+  <div class="col-md-4">
+    <div class="blog-card card-effect">
+      <img src="./img/work01.jpg" alt="">
+      <h5 class="mb-0 mt-4">Designing smart and slick Bootstrap 5 Website</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae, nulla porro ipsam
+        nobis illo!</p>
+    </div>
   </div>
+  <div class="col-md-4">
+    <div class="blog-card card-effect">
+      <img src="./img/work01.jpg" alt="">
+      <h5 class="mb-0 mt-4">Designing smart and slick Bootstrap 5 Website</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae, nulla porro ipsam
+        nobis illo!</p>
+    </div>
+  </div>
+  <div class="col-md-4">
+      <div class="blog-card card-effect">
+        <img src="./img/work01.jpg" alt="">
+        <h5 class="mb-0 mt-4">Designing smart and slick Bootstrap 5 Website</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae, nulla porro ipsam
+          nobis illo!</p>
+      </div>
+  </div>
+  <div class="col-md-4">
+        <div class="blog-card card-effect">
+          <img src="./img/work01.jpg" alt="">
+          <h5 class="mb-0 mt-4">Designing smart and slick Bootstrap 5 Website</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae, nulla porro ipsam
+            nobis illo!</p>
+        </div>
+  </div>
+    <div class="col-md-4">
+          <div class="blog-card card-effect">
+            <img src="./img/work01.jpg" alt="">
+            <h5 class="mb-0 mt-4">Designing smart and slick Bootstrap 5 Website</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur recusandae, nulla porro ipsam
+              nobis illo!</p>
+          </div>
+    </div>
+</div>
 </section>
+
+<section class="section" id="skill">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col-md-8 mx-auto text-center">
+        <h2 class="section-title" style="color:black;">SKILL</h2>
+        <p class="section-desc" style="color:black;">
+          直勤はWEBコーダーです！
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- blog -->
+  <section id="blog" class="bg-light">
+    <div class="container">
+      <div class="row mb-4 ">
+        <div class="col-md-8 mx-auto text-center">
+          <h6 class="text-primary">Blog</h6>
+          <h1>ブログからの最新のニュース</h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere
+            itaque illum quo fugit, molestiae vero.
+          </p>
+        </div>
+
+<!--footer section-->
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row gy-4">
+        <div class="col-md-4">
+          <h4 class="text-white">ポートフォリオ</h4>
+        </div>
+        <div class="col-md-2">
+          <h5 class="text-white">Brand</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h5 class="text-white">More</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">FAQ&'s</a></li>
+            <li><a href="#">Privacy & Policy</a></li>
+            <li><a href="#">Warrantry</a></li>
+            <li><a href="#">Shipment</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5 class="text-white">Pages</h5>
+          <ul class="list-unstyled">
+            <li>Address: 2715 Ash Dr. San Jose, South Dakota 83475</li>
+            <li>Email: shincode0712@gmail.com</li>
+            <li>Phone: 111-222-333</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
 <div class="square">Top</div>
 
@@ -328,13 +357,6 @@
     cursor:pointer;
   }
 </style>
-
-  <footer id="footer">
-    <div class="inner">
-
-      <p class="copyright">Copyright&copy;L-sunsui. All Rights Reserved.</p>
-    </div>
-  </footer>
 
 
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
