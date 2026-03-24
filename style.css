@@ -610,3 +610,168 @@ form .form-control {
   border-radius: 0;
   background-color: rgba(0, 0, 0, 0.04)
 }
+/**/
+.scroll-stack {
+  background: linear-gradient(180deg, #334766 0%, #3d3f8f 100%);
+  padding: 100px 0;
+  color: #fff;
+}
+
+.scroll-stack .section-title,
+.scroll-stack .section-desc {
+  color: #fff;
+}
+
+.scroll-block {
+  margin-bottom: 80px;
+}
+
+.scroll-block:last-child {
+  margin-bottom: 0;
+}
+
+.scroll-block-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  min-height: 320px;
+}
+
+.scroll-block-inner.reverse {
+  flex-direction: row-reverse;
+}
+
+.scroll-block-image,
+.scroll-block-text,
+.scroll-block-info {
+  flex: 1;
+}
+
+.scroll-block-image img {
+  width: 100%;
+  max-width: 460px;
+  border-radius: 12px;
+  display: block;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.scroll-block-text {
+  background: rgba(255, 255, 255, 0.12);
+  padding: 24px;
+  border-radius: 12px;
+  backdrop-filter: blur(4px);
+}
+
+.scroll-block-text h3 {
+  font-size: 2rem;
+  margin-bottom: 16px;
+  font-weight: 700;
+}
+
+.scroll-block-text p {
+  line-height: 1.9;
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.scroll-icons {
+  margin-top: 20px;
+  display: flex;
+  gap: 20px;
+}
+
+.scroll-icons a {
+  color: #fff;
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+
+.scroll-icons a:hover {
+  transform: translateY(-4px);
+  color: #fff;
+}
+
+.scroll-info-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.scroll-info-list li {
+  margin-bottom: 18px;
+}
+
+.scroll-info-list a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.scroll-info-list a:hover {
+  opacity: 0.85;
+}
+
+.scroll-about-title {
+  margin-top: 24px;
+  text-align: center;
+}
+
+.scroll-about-title h3 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+@media (max-width: 991px) {
+
+  .scroll-block-inner,
+  .scroll-block-inner.reverse {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .scroll-block-image img {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .scroll-icons {
+    justify-content: center;
+  }
+
+  .scroll-info-list {
+    text-align: center;
+  }
+}
+.work-main {
+  margin-bottom: 40px;
+}
+
+.work-sub {
+  display: flex;
+  gap: 20px;
+}
+#works-main {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+#works-main .card,
+#works-main .blog-card {
+  border-radius: 12px;
+}
+
+#works-main .card img,
+#works-main .blog-card img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+#works-main .blog-card {
+  height: 100%;
+}
+
+#works-main .btn {
+  border-radius: 6px;
+  padding: 10px 16px;
+}
