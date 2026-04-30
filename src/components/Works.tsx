@@ -3,13 +3,13 @@ const subWorks = [
     title: '冷蔵庫管理アプリ',
     text: '食材をカテゴリごとに整理し、未使用食材を確認できる実用系アプリです。',
     link: 'https://dna4570.github.io/fridge-manager/',
-    image: '/img/works/Work01.jpg',
+    image: '/img/images/FleshFood.png',
   },
   {
-    title: 'TokyoMetro',
+    title: 'Spot-dig',
     text: '企業サイト風のレイアウトと情報配置を意識して制作したデザインLPです。',
-    link: 'https://dna4570.github.io/4-TokyoMetro/',
-    image: '/img/works/Work01.jpg',
+    link: 'https://dna4570.github.io/spot-dig/',
+    image: '/img/images/spotdig.png',
   },
 ]
 
@@ -38,12 +38,12 @@ export default function Works() {
 
             <div className="button-row">
               <a
-                href="https://lofi-react.vercel.app/"
+                href={import.meta.env.VITE_SHOPIFY_URL || '#'}
                 className="btn btn-primary"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                デモを見る
+                ストアを見る
               </a>
 
               <a

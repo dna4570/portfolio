@@ -10,16 +10,17 @@ export default function Hero() {
 						ポートフォリオとしての入口LPです。代表作の lofi-app を中心に、
             制作したWeb作品と開発の方向性を掲載しています。
 					</p>
-					<div className="hero-button">
-						<a href="#work-main" classNamme="btn btn-primary">
+					<div className="hero-buttons">
+						<a href="#works-main" className="btn btn-primary">
 							作品を見る
 						</a>
-						<a href="https://lofi-react.varsel.app/"
-						className="btn btn-secondary"
-						target="_blank"
-						rel="noopener noreferrer"
+						<a
+							href={import.meta.env.VITE_SHOPIFY_URL || '#'}
+							className="btn btn-secondary"
+							target="_blank"
+							rel="noopener noreferrer"
 						>
-							lofi-appを見る
+							ストアを見る
 						</a>
 					</div>
 				</div>
