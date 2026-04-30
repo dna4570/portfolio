@@ -8,7 +8,7 @@ const subWorks = [
   {
     title: 'Spot-dig',
     text: '企業サイト風のレイアウトと情報配置を意識して制作したデザインLPです。',
-    link: 'https://dna4570.github.io/spot-dig/',
+    link: 'https://spot-dig.vercel.app/',
     image: '/img/images/spotdig.png',
   },
 ]
