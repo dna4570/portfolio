@@ -15,7 +15,7 @@ export default function Hero() {
 							作品を見る
 						</a>
 						<a
-							href={import.meta.env.VITE_SHOPIFY_URL || '#'}
+							href="https://lofi-react.vercel.app/"
 							className="btn btn-secondary"
 							target="_blank"
 							rel="noopener noreferrer"

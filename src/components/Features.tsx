@@ -1,22 +1,19 @@
 const features = [
-	{
-		title: 'lofi-app の制作目的',
-    text: '音楽制作とWeb開発をつなげ、自分のテーマを持ったアプリとして構築しています。',
+  {
+    title: '先人の教えを胸に',
+    text: '1富士2鷹3茄子、粋でイナセナなSENSEIでありたいから日々なるべく勉強します。',
     image: '/Pixel%20Art.jpg',
-
-	},
-		{
-		title: 'lofi-app の制作目的',
-    text: '音楽制作とWeb開発をつなげ、自分のテーマを持ったアプリとして構築しています。',
+  },
+  {
+    title: '安心できる生活を',
+    text: 'undergroundな体験を経てlofi制作での創造性とWeb開発をつなげ、アプリとして構築しています。',
     image: '/Pixel%20Art.jpg',
-
-	},
-		{
-		title: 'lofi-app の制作目的',
-    text: '音楽制作とWeb開発をつなげ、自分のテーマを持ったアプリとして構築しています。',
+  },
+  {
+    title: 'より良い未来を目指して',
+    text: '健康を意識しつつ、日々直感を信じ頑張ります。',
     image: '/Pixel%20Art.jpg',
-
-	},
+  },
 ]
 
 export default function Features() {

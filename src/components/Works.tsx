@@ -38,7 +38,7 @@ export default function Works() {
 
             <div className="button-row">
               <a
-                href={import.meta.env.VITE_SHOPIFY_URL || '#'}
+                href="https://lofi-react.vercel.app/"
                 className="btn btn-primary"
                 target="_blank"
                 rel="noopener noreferrer"
